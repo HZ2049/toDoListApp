@@ -1,0 +1,59 @@
+table{
+width: 100%;
+margin-top: 20px;
+border-collapse: collapse;
+border-radius: 5px;
+overflow: hidden;
+}
+th,td{
+  border: 2px solid #ddd;
+  text-align: center;
+  padding: 10px;
+
+
+}
+
+th{
+  background-color: #f2f2f2;
+}
+
+button{
+  border: 2 px solid #e6b0b0;
+  background-color: azure;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  
+}
+
+.removeButton{
+  background-color: rgb(252, 0, 0);
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.toDoInput{
+background-color: rgb(250, 241, 233);
+padding: 5px;
+width: 50%;
+border-radius: 5px;
+
+}
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: start;
+gap: 20px;
+}
+
+.todoList{
+width: 50%;
+
+}
+
+.completedList{
+  width: 50%;
+}
