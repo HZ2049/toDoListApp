@@ -46,7 +46,7 @@ function App() {
 
     <div>
       <input
-      placeholder='Please set your todo list'
+      placeholder='Please set your todo list item'
       onChange={(e)=>setNewToDo(e.target.value)}
       className='toDoInput'
       value={newToDo}
